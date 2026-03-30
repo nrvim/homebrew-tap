@@ -1,10 +1,10 @@
 class GarminGivemydata < Formula
   include Language::Python::Virtualenv
 
-  desc "Get your Garmin Connect data back — 47-table SQLite + MCP server"
+  desc "Get your Garmin Connect data back — 48-table SQLite + MCP server"
   homepage "https://github.com/nrvim/garmin-givemydata"
-  url "https://files.pythonhosted.org/packages/56/07/2e995b9a9f2baca9c391795272e1da68f1a3f41c484bc9a2317c3f8bc01c/garmin_givemydata-0.1.5.tar.gz"
-  sha256 "1b19f59c7d4fac062cce19f08e1989df4a420dcf0249036141beb22cdbf2d93e"
+  url "https://files.pythonhosted.org/packages/32/db/00bc02e009bdc01cea4d6e98551d8fadc1c95788a5ee27b9db1f6e08a2a4/garmin_givemydata-0.1.6.tar.gz"
+  sha256 "f7b19b4b241b67d6dfb302bb2d45ba0c09b4d49ac39c6aac4980c477c5177bee"
   license "AGPL-3.0-only"
 
   depends_on "python@3.12"
