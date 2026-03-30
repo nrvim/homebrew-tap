@@ -13,8 +13,14 @@ class GarminGivemydata < Formula
     virtualenv_install_with_resources
   end
 
-  def post_install
-    system "#{libexec}/bin/python", "-m", "playwright", "install", "chromium"
+  def caveats
+    <<~EOS
+      To complete setup, install the browser driver:
+        playwright install chromium
+
+      Then run:
+        garmin-givemydata
+    EOS
   end
 
   test do
