@@ -3,8 +3,8 @@ class GarminGivemydata < Formula
 
   desc "Get your Garmin Connect data back — 48-table SQLite + MCP server"
   homepage "https://github.com/nrvim/garmin-givemydata"
-  url "https://files.pythonhosted.org/packages/a4/43/cd7372f1214c9982a84ebd66d4941388adebfe09992b6c2bbfea3a3b3caf/garmin_givemydata-0.1.8.tar.gz"
-  sha256 "8891352e84b074230cac696aefc0dccefbd8991599304256b2354a2267bc3aca"
+  url "https://files.pythonhosted.org/packages/15/90/1b20384f387363959237ef34b9c79504119bf41beb444426f7c210463b3a/garmin_givemydata-0.1.9.tar.gz"
+  sha256 "95b9e5c9180778e54601c146260c0696856d4d23fdb6b937b5e47f42c4c4160a"
   license "AGPL-3.0-only"
 
   depends_on "python@3.12"
@@ -15,8 +15,8 @@ class GarminGivemydata < Formula
 
   def caveats
     <<~EOS
-      To complete setup, install the browser driver:
-        playwright install chromium
+      Google Chrome is required for authentication.
+      Install from: https://www.google.com/chrome/
 
       Then run:
         garmin-givemydata
