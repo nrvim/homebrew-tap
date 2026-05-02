@@ -3,8 +3,8 @@ class GarminGivemydata < Formula
 
   desc "Get your Garmin Connect data back — 48-table SQLite + MCP server"
   homepage "https://github.com/nrvim/garmin-givemydata"
-  url "https://files.pythonhosted.org/packages/26/c9/a17a7f1cfdbecdea6649a32a8dd18f2c2ce01900bbe92ccbb57206699974/garmin_givemydata-0.1.10.tar.gz"
-  sha256 "e44ce2d1e05096084edcd7b545e73ab13d41c2d7995354b5aa2c0ed26c018a94"
+  url "https://files.pythonhosted.org/packages/b2/82/4705c85fedcc8fec8be03761db1651f08186157e2a4854fb1da3aab77e6c/garmin_givemydata-0.1.11.tar.gz"
+  sha256 "588e5cd25e96377645d4cf6190cbe4fd83a660d6a9310b8e5b882f5ba772002e"
   license "AGPL-3.0-only"
 
   depends_on "python@3.12"
